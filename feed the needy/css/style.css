@@ -1,0 +1,204 @@
+
+html {
+  scroll-behavior: smooth;
+}
+body{
+  position: relative;
+  height: 100%;
+  overflow-y: scroll;
+}
+@media only screen and (min-width: 992px) {
+  #navbarNav {
+  display: flex;
+  justify-content: center;
+  align-items: right;
+  height: 100%;
+}
+}
+.nav-link{
+  color:black  !important;
+  font-weight: bold;
+  font-size: 18px;
+}
+.nav-link:hover{
+  color:white  !important;
+  font-weight: bold;
+  font-size: 18px;
+}
+.nav-link.active {
+    color:white  !important;
+}
+.jumbotron{
+  background-image:url("hunger.jpg");
+  background-size:cover;
+  height:100%;
+  padding-bottom:200px;
+}
+.image-fluid{
+  background-image:url("joy.jpg");
+  background-size:cover;
+  height:100%;
+  background-position: center;
+  padding-bottom:500px;
+  padding-left: 30px;
+}
+.cover{
+  margin-top:48%;
+  color: white;
+}
+.cover h1{
+  font-size: 40px;
+  text-shadow: 2px 2px #f5101f;
+}
+.cover h2{
+  font-size: 37px;
+  text-shadow: 2px 2px #f5101f;
+}
+.cover p{
+  font-size: 20px;
+  text-shadow: 2px 2px black;
+  font-weight: bold;
+}
+.btn-primary{
+    background-color: #f5101f !important;
+    border-color: #f5101f !important;
+    font-weight: bold;
+    font-size: 18px;
+    color: white !important;
+}
+.btn-primary:hover{
+    background-color: black !important;
+    border-color: #f5101f !important;
+    font-weight: bold;
+    font-size: 18px;
+    color: #f5101f !important;
+}
+.volunteer, .gift, .feed{
+  font-size: 18px;
+  text-align: center;
+}
+.volunteer h2, .gift h2, .feed h2{
+  font-size: 23px;
+  text-align: center;
+}
+.heading h1{
+  text-align: center;
+  text-decoration: underline;
+  text-decoration-color: #f5101f!important;
+  margin-bottom: 32px;
+}
+.org{
+  filter:grayscale(100);
+  text-align: center;
+}
+.detail  p{
+  text-align: left;
+  font-size: 18px;
+}
+.quote  p{
+  text-align: center;
+  font-size: 20px;
+  font-style: italic;
+  font-weight: bold;
+}
+.sub{
+  font-size: 18px;
+  text-align: center;
+  font-weight: bold;
+}
+.card-deck{
+    padding-top: 10px;
+}
+.card-title{
+  text-align: center;
+  font-size: 23px;
+}
+.card-text{
+  font-size: 18px;
+}
+.heading  h1{
+  font-family:apple-system;
+  font-weight: bold;
+  font-size: 30px;
+  text-align: center!important;
+  text-decoration: underline;
+}
+.submit button{
+  background-color: #f5101f !important;
+  border-color: #f5101f !important;
+  font-family:Century Gothic;
+  font-size:22 px;
+  font-weight: bold;
+  padding: 5px 10px 5px 10px;
+}
+.highlight{
+  color: #f5101f!important;
+}
+.highlight:hover{
+  text-decoration: underline;
+  text-decoration-color: #f5101f!important;
+}
+.title1 h4{
+  text-align: center;
+}
+.title2 h5{
+  text-align: center;
+}
+.image{
+  text-align: center;
+}
+.image img{
+	width:350px;
+	filter:grayscale(100);
+	transition:1s;
+	padding-left:20px;
+	padding-top:20px;
+}
+.image img:hover{
+	transform:scale(1.1);
+	filter:grayscale(0);
+}
+.graph-img{
+  text-align: center;
+}
+.form{
+  background-image:url("food.jpg");
+  background-size:cover;
+  background-position: center;
+  height:100%;
+  margin-bottom: 80px;
+  padding-bottom: 30px;
+  padding-top: 30px;
+  margin-top: 20px;
+}
+.form-group{
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  text-shadow: 2px 2px black;
+}
+.btn-default{
+  background-color:  #f5101f;
+  border-color: #f5101f !important;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+}
+.btn-default:hover{
+    background-color: black !important;
+    border-color: #f5101f !important;
+    font-weight: bold;
+    font-size: 20px;
+    color: #f5101f !important;
+}
+.footer {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #f5101f;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+  position: absolute;
+}
