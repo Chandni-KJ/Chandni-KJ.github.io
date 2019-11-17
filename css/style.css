@@ -101,7 +101,7 @@ body{
 }
 @media only screen and (min-width: 1078px) {
   .detail {
-  padding-top: 43px;
+  padding-top: 50px;
 }
 }
 #aboutus .desc{
@@ -111,7 +111,7 @@ body{
 }
 @media only screen and (min-width: 1078px) {
   .desc {
-  padding-top: 55px;
+  padding-top: 30px;
 }
 }
 .blockquote{
