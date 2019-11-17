@@ -94,6 +94,7 @@ body{
 .detail  p{
   text-align: left;
   font-size: 18px;
+  margin-left:20px;
 }
 .card-header{
   text-align: center;
