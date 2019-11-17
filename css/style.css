@@ -97,6 +97,7 @@ body{
 .detail{
   text-align: left;
   vertical-align: middle;
+  font-size: 18px;
 }
 @media only screen and (min-width: 1078px) {
   .detail {
