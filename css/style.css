@@ -143,9 +143,6 @@ body{
     column-count: 5;
   }
 }
-.card-deck{
-    padding-top: 10px;
-}
 .card-title{
   text-align: center;
   font-size: 23px;
