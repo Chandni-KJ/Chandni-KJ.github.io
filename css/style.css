@@ -219,7 +219,7 @@ body{
   height: 400px;
 }
 .size3{
-  height: 500px;
+  height: 700px;
 }
 @media only screen and (min-width: 1000px) {
   .card-title{
