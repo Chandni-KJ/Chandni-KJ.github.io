@@ -124,9 +124,9 @@ body{
   font-weight: bold;
 }
 .sub{
-  font-size: 18px;
+  font-size: 22px;
   text-align: center;
-  font-weight: bold;
+  font-weight: 500;
 }
 .card-columns {
   @include media-breakpoint-only(lg) {
