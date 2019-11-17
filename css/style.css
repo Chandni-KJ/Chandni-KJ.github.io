@@ -173,10 +173,14 @@ body{
   text-decoration-color: #f5101f!important;
 }
 .title1 h4{
+  font-size: 22px;
   text-align: center;
+  font-weight: 500;
 }
 .title2 h5{
+  font-size: 18px;
   text-align: center;
+  font-weight: 500;
 }
 .image{
   text-align: center;
