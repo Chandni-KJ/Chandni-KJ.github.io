@@ -94,10 +94,14 @@ body{
   filter:grayscale(100);
   text-align: center;
 }
-.detail  p{
+.detail{
   text-align: left;
-  font-size: 18px;
-  margin-left:20px;
+  vertical-align: middle;
+}
+@media only screen and (min-width: 1078px) {
+  .detail {
+  padding-top: 25px;
+}
 }
 .card-header{
   text-align: center;
