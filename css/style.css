@@ -180,6 +180,28 @@ body{
 .graph-img{
   text-align: center;
 }
+.btn-secondary{
+  background-color:  #f5101f;
+  border-color: #f5101f !important;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  margin-left: 20px;
+}
+.btn-secondary:hover{
+    background-color: black !important;
+    border-color: #f5101f !important;
+    font-weight: bold;
+    font-size: 20px;
+    color: #f5101f !important;
+    margin-left: 20px;
+}
+#theproblem .card{
+  border: none;
+}
+#aboutus .card{
+  border: none;
+}
 .form{
   background-image:url("food.jpg");
   background-size:cover;
