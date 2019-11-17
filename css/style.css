@@ -94,7 +94,7 @@ body{
   filter:grayscale(100);
   text-align: center;
 }
-.detail{
+#theproblem .detail{
   text-align: left;
   vertical-align: middle;
   font-size: 18px;
