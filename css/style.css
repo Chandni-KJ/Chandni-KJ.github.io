@@ -202,6 +202,9 @@ body{
 #aboutus .card{
   border: none;
 }
+.size{
+height: 400px;
+}
 .form{
   background-image:url("food.jpg");
   background-size:cover;
